@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_margin="16dp"
+    android:background="#F1F1F1"
+    android:padding="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image_view_bbc"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        android:src="@drawable/hellopoi"/>
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="29sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_title"
+        android:maxLines="2"
+        android:ems="10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"/>
+
+    <TextView
+        android:textAlignment="center"
+        style="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="normal"
+        android:textSize="29sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/txt_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"/>
+
+</LinearLayout>
